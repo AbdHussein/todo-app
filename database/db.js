@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://dbuser:cmM5ihpjbSrhvOdu@cluster0.3xayr.mongodb.net/todos?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true }, (err) =>{
+mongoose.connect('mongodb+srv://<DB_USER>:<PASSWORD>@cluster0.3xayr.mongodb.net/<DB_NAME>?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true }, (err) =>{
     if(err){
         console.log("Error: ", err);
     }
