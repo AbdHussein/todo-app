@@ -5,7 +5,9 @@ a simple Todo App created with: <br/>
 - Express.js
 - MongoDB
 - React.js
-
+## Live Demo
+To see the live demo you can click [here](https://my-todo-app01.herokuapp.com/) or copy and open the link below<br/>
+`https://my-todo-app01.herokuapp.com/`
 ## Getting started
 ### If you don't have Node.js installed on your machine you can download it from [Here](https://nodejs.org/)
 
